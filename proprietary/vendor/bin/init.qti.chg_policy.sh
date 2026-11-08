@@ -10,6 +10,12 @@
 
 export PATH=/vendor/bin
 
+# Rhodep uses the in-kernel discrete charger policy, not the SMB5 optimizer.
+if [ "$(getprop ro.product.vendor.device)" = "rhodep" ]; then
+    setprop persist.vendor.hvdcp_opti.start 2
+    exit 0
+fi
+
 soc_id=`getprop ro.vendor.qti.soc_id`
 if [ "$soc_id" -eq 415 ] || [ "$soc_id" -eq 439 ] || [ "$soc_id" -eq 450 ] || [ "$soc_id" -eq 475 ] || [ "$soc_id" -eq 515 ]; then
     setprop persist.vendor.hvdcp_opti.start 2
