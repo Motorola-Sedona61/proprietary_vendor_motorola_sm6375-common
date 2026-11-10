@@ -501,24 +501,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/motorola/sm6375-common/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/motorola/sm6375-common/proprietary/vendor/firmware/aw963xx_reg_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw963xx_reg_0.bin \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_4mb.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_4mb_ecdsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_ecdsa.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_4mb_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_unsigned.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_4mb_v6.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_v6.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_4mb_v6_rsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_v6_rsa.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_4mb_v7.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_4mb_v7.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_5mb.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_5mb_ecdsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_ecdsa.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_5mb_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_unsigned.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_5mb_v6.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_v6.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_5mb_v6_rsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_v6_rsa.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_5mb_v7.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_5mb_v7.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_ecdsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_ecdsa.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_unsigned.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_v6.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_v6.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_v6_rsa.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_v6_rsa.mbn \
-    vendor/motorola/sm6375-common/proprietary/vendor/firmware/venus_v7.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus_v7.mbn \
     vendor/motorola/sm6375-common/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
     vendor/motorola/sm6375-common/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
     vendor/motorola/sm6375-common/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
