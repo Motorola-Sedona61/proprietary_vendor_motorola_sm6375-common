@@ -93,3 +93,7 @@ socket: 1
 process_vm_readv: 1
 tgkill: 1
 sigreturn: 1
+getppid: 1
+getdents64: 1
+uname: 1
+sysinfo: 1
