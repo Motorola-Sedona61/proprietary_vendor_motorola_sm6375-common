@@ -566,6 +566,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/lib-imsvtcore.so",
             ],
             shared_libs: [
+                "libion_qsecom_shim",
                 "librcc",
                 "libion",
                 "libhidlbase",
