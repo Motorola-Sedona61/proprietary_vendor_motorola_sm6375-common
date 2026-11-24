@@ -92,7 +92,8 @@
         <!-- C2 decoders -->
         <MediaCodec name="c2.qti.avc.decoder" type="video/avc">
             <Alias name="OMX.qcom.video.decoder.avc"/>
-            <Limit name="size" min="96x96" max="1920x1088" />
+            <Limit name="size" min="96x96" max="1920x1920" />
+            <Limit name="block-count" range="36-8160" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
             <Limit name="blocks-per-second" range="36-489600" />
@@ -106,7 +107,8 @@
         </MediaCodec>
         <MediaCodec name="c2.qti.avc.decoder.low_latency" type="video/avc">
             <Alias name="OMX.qcom.video.decoder.avc.low_latency"/>
-            <Limit name="size" min="96x96" max="1920x1088" />
+            <Limit name="size" min="96x96" max="1920x1920" />
+            <Limit name="block-count" range="36-8160" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
             <Limit name="blocks-per-second" range="36-489600" />
@@ -136,7 +138,8 @@
         </MediaCodec>
         <MediaCodec name="c2.qti.hevc.decoder" type="video/hevc" >
             <Alias name="OMX.qcom.video.decoder.hevc"/>
-            <Limit name="size" min="96x96" max="1920x1088" />
+            <Limit name="size" min="96x96" max="1920x1920" />
+            <Limit name="block-count" range="36-8160" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
             <Limit name="blocks-per-second" min="36" max="489600" />
@@ -149,7 +152,8 @@
         </MediaCodec>
         <MediaCodec name="c2.qti.hevc.decoder.low_latency" type="video/hevc" >
             <Alias name="OMX.qcom.video.decoder.hevc.low_latency"/>
-            <Limit name="size" min="96x96" max="1920x1088" />
+            <Limit name="size" min="96x96" max="1920x1920" />
+            <Limit name="block-count" range="36-8160" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
             <Limit name="blocks-per-second" min="36" max="489600" />
@@ -177,7 +181,8 @@
         </MediaCodec>
         <MediaCodec name="c2.qti.vp9.decoder" type="video/x-vnd.on2.vp9" >
             <Alias name="OMX.qcom.video.decoder.vp9"/>
-            <Limit name="size" min="96x96" max="1920x1088" />
+            <Limit name="size" min="96x96" max="1920x1920" />
+            <Limit name="block-count" range="36-8160" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
             <Limit name="blocks-per-second" min="36" max="489600" />
@@ -242,7 +247,8 @@
         <!-- C2 Encoders -->
         <MediaCodec name="c2.qti.avc.encoder" type="video/avc">
             <Alias name="OMX.qcom.video.encoder.avc"/>
-            <Limit name="size" min="128x128" max="1920x1088" />
+            <Limit name="size" min="128x128" max="1920x1920" />
+            <Limit name="block-count" range="64-8160" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
             <Limit name="blocks-per-second" min="64" max="489600" />
@@ -256,7 +262,8 @@
         </MediaCodec>
         <MediaCodec name="c2.qti.hevc.encoder" type="video/hevc">
             <Alias name="OMX.qcom.video.encoder.hevc"/>
-            <Limit name="size" min="128x128" max="1920x1088" />
+            <Limit name="size" min="128x128" max="1920x1920" />
+            <Limit name="block-count" range="64-8160" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
             <Limit name="blocks-per-second" min="64" max="489600" />
