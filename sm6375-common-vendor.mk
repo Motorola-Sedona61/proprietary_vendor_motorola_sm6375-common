@@ -171,6 +171,7 @@ PRODUCT_PACKAGES += \
     lib-rtpcore \
     lib-rtpsl \
     libC2D2 \
+    libc2d30_bltlib \
     libcne \
     libcneapiclient \
     libcneoplookup \
